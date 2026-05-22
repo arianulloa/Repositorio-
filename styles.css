@@ -1,7 +1,7 @@
 @import url('https://googleapis.com');
 
 :root{
-    --color-fondo: rgb (30,30,30);
+    --color-fondo: rgb(30,30,30);
     --color-tarjeta: #1a1a1e;
     --fuente-principal: 'Urbanist', sans-serif;
 }
@@ -152,7 +152,7 @@ main section label{
 main section input[type="text"],
 main section input[type="number"],
 main section input[type="email"]{
-    width: 90%;
+    width: 100%;
     padding: 16px;
     background-color: #2b2e33;  
     border: 1px solid #3d424d;
@@ -160,6 +160,7 @@ main section input[type="email"]{
     color: #ffffff;  
     font-family: 'Urbanist', sans-serif;
     font-size: 1rem;
+     box-sizing: border-box;
     transition: all 0.3s ease;   
 }
 
@@ -195,4 +196,18 @@ main section:nth-of-type(3) h1{
 }
 main section:nth-of-type(4) h1{
     color: orange;
+}
+@media (max-width: 768px) {
+    header { margin: 15px; padding: 20px; }
+    header nav { gap: 20px; } 
+    main section { padding: 25px; }
+}
+@media (max-width: 480px) {
+    header nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+    header nav button { 
+        width: 100%; 
+    }
 }
