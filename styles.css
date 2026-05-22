@@ -211,3 +211,43 @@ main section:nth-of-type(4) h1{
         width: 100%; 
     }
 }
+footer {
+    max-width: 1000px;
+    margin: 40px auto 20px auto;          
+    background-color: var(--color-tarjeta);
+    padding: 40px 20px;
+    border-radius: 16px;                 
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;                  
+    border: 1px solid #2d2d35;
+}
+footer h2, footer h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+footer h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #c89d6c;                      
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+footer p {
+    color: #9ca3af;                       
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+footer a img {
+    border-radius: 10px;                  
+    margin-top: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, filter 0.3s ease; /* Transición suave */
+}
+footer a img:hover {
+    transform: scale(1.15);               
+    cursor: pointer;
+}
