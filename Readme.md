@@ -39,15 +39,15 @@ JavaScript (Nuevo)
 6. Diseño Adaptable (Responsive): Uso de *Media Queries* para reordenar el menú en forma vertical cuando la página se abre en la pantalla de un celular.
 
 ## Funcionalidades Interactivas Incorporadas (Parte 3)
-1. Validacion de formulario: Logica estructurada mediante bloques "try...catch" que evalua de forma independiente que los campos de texto y botones tipo radio no esten vacios, interrumpiendo el envio si hay error.
+1. Validacion de formulario: Logica estructurada mediante bloques (`try...catch`) que evalua de forma independiente que los campos de texto y botones tipo radio no esten vacios, interrumpiendo el envio si hay error.
 
 2. Uso de Arrays de Datos: Creación de una estructura de arreglo en JavaScript que almacena el equipamiento reglamentario necesario para entrenar comodamente en el dojo.
 
-3. Manipulación Dinámica del DOM: Generación automática de elementos de lista "li" inyectados en tiempo real dentro del contenedor HTML sin escribir texto estático.
+3. Manipulación Dinámica del DOM: Generación automática de elementos de lista (`li`) inyectados en tiempo real dentro del contenedor HTML sin escribir texto estático.
 
 4. Buscador en Tiempo Real: Filtro interactivo mediante eventos de teclado que compara la entrada del usuario con los elementos del Array de equipamiento.
 
-5. Efectos Visuales con Eventos del Mouse: Implementación de listeners para los eventos "mouseover" y "mouseout" que cambian el color, el grosor de fuente y el cursor de los elementos de manera dinámica al interactuar con ellos.
+5. Efectos Visuales con Eventos del Mouse: Implementación de listeners para los eventos (`mouseover`) y (`mouseout`) que cambian el color, el grosor de fuente y el cursor de los elementos de manera dinámica al interactuar con ellos.
 
 ## creador 
 -Arian Ulloa
