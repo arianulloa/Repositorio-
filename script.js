@@ -91,8 +91,8 @@ document.addEventListener("DOMContentLoaded", () =>{
            evento.preventDefault();
            alert(error.message)
         } 
-    }
+   }
     if(formulario){
-     formulario.addEventListener("submit",Vali_form);
+      formulario.addEventListener("submit",Vali_form);
      }
 })
